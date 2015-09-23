@@ -1,0 +1,121 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/loc_custom_title"
+        android:id="@+id/custom_title"
+        android:layout_gravity="right"
+        android:layout_marginBottom="25dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/loc_name"
+        android:id="@+id/loc_nam_txt" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/loc_name_input" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/loc_latitude"
+        android:id="@+id/loc_long_txt" />
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/latitude_bar" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/min_value"
+            android:id="@+id/minValueLat"
+            android:layout_marginRight="250sp"
+            android:layout_marginLeft="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/max_value"
+            android:id="@+id/maxValueLat" />
+    </LinearLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/loc_latitude_input"
+        android:editable="false"
+        android:inputType="number|numberSigned" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/loc_longitude"
+        android:id="@+id/loc_latitude_txt" />
+
+    <SeekBar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/longtiude_bar" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/min_value"
+            android:id="@+id/minValueLong"
+            android:layout_marginRight="250sp"
+            android:layout_marginLeft="10dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/max_value"
+            android:id="@+id/maxValueLong" />
+    </LinearLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/loc_longitude_input"
+        android:editable="false"
+        android:inputType="numberDecimal|numberSigned" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/loc_timezone"
+        android:id="@+id/loc_timezone_txt" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/loc_timezone_input" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/loc_custom_submit"
+        android:id="@+id/loc_submit_btn"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="25dp" />
+
+</LinearLayout>
+<!-- From: file:/H:/Software%20for%20Mobile%20Devices/Assignment%205/SunCalculator/app/src/main/res/layout/activity_custom_location.xml -->

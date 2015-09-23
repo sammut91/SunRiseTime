@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/image_spinner"
+        android:src="@drawable/sunpic"
+        android:layout_gravity="center_horizontal"
+        android:paddingTop="50sp"
+        android:paddingBottom="50sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/spinner_info"
+        android:textSize="25sp"
+        android:id="@+id/spinner_info" />
+
+    <Spinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/location_spinner" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:paddingBottom="30sp"
+        android:text="@string/spinner_default"
+        android:id="@+id/selectedText" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/check_btn"
+        android:id="@+id/check_temp_btn"
+        android:layout_marginBottom="30dp"
+        android:layout_gravity="center_horizontal" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Custom Location"
+        android:id="@+id/customLocBtn"
+        android:layout_gravity="center_horizontal" />
+
+</LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/H:/Software%20for%20Mobile%20Devices/Assignment%205/SunCalculator/app/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/H:/Software%20for%20Mobile%20Devices/Assignment%205/SunCalculator/app/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">Suntime</string>
+    <string name="check_btn">Check now!</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="loc_custom_submit">Submit</string>
+    <string name="loc_custom_title">Custom Location</string>
+    <string name="loc_latitude">Latitude</string>
+    <string name="loc_longitude">Longitude</string>
+    <string name="loc_name">Location Name</string>
+    <string name="loc_timezone">TimeZone</string>
+    <string name="max_value">180</string>
+    <string name="min_value">-180</string>
+    <string name="spinner_default">Selected state</string>
+    <string name="spinner_info">Select a state below:</string>
+    <string name="title_activity_custom_location">CustomLocation</string>
+    <string name="title_activity_main">MainActivity</string>
+</resources>
